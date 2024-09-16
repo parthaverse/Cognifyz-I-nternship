@@ -1,0 +1,51 @@
+body {
+  background-color: lightblue;
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.task {
+  font-size: 24px;
+  color: #1d4a2a;
+  margin-bottom: 10px;
+}
+
+.post {
+  background-color: lightgreen;
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: 300px;
+  margin: 10px; 
+}
+
+.post h2 {
+  font-size: 20px;
+  color:darkmagenta;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 16px;
+  color: rgb(41, 27, 27);
+}
+
+.post:hover {
+  background-color:chartreuse;
+  border: 5px dotted  darkblue;
+}

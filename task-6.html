@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="task-6.css">   
+</head>
+<body>
+   <header>
+    <div class="header">
+      <abbr title="Home section"><a href="#">Home</a></abbr>
+      <abbr title="About section"><a href="#">About</a></abbr>
+      <abbr title="Contact section"><a href="#">Contact</a></abbr>
+      <!-- click login to get form -->
+      <div class="header-right">
+        <abbr title="Click here to login"><a href="javascript:void(0)" onclick="showLoginForm()">Login</a></abbr>
+      </div>
+    </div>
+   </header>
+  <div id="loginFormContainer" class="container">
+    <h1>Registration Form</h1>
+    <form id="registrationForm" action="task6summit.html">
+      Name:<br>
+      <input type="text" id="name"><br>
+      Email:<br>
+      <input type="text" id="mail"><br>
+      Number:<br>
+      <input type="text" id="num"><br>
+      Password:<br>
+      <input type="password" id="pass"><br>
+      Confirm Password:<br>
+      <input type="password" id="pass2">
+      <br><br>
+      <abbr title="Click here to submit"><input type="button" value="Submit" onclick="submitForm()"></abbr>
+      <abbr title="Click here to reset"><input type="reset" value="Reset" onclick="resetForm()"></abbr>
+    </form>
+  </div>
+  <script src="task-6.js"></script>
+</body>
+</html>

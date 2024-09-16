@@ -1,0 +1,80 @@
+body{
+  background-color: whitesmoke;
+}
+h1{
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+}
+p{
+  color: green;
+  font-size: 20px;
+}
+h2{
+  font-size: 25px;
+  color: blue;
+  text-align: center;
+}
+img{
+  height: auto;
+  width: 300px;
+  
+}
+button{
+  background-color: whitesmoke;
+  border: 2px solid green;
+}
+button:hover{
+  color: white;
+  background-color: green;
+  border: 2px solid whitesmoke;
+}
+button:active{
+  background-color: darkorchid;
+  border: 2px solid  whitesmoke;
+
+}
+
+@media (max-width:768px) {
+  body{
+    background-color: rgb(124, 150, 159);
+  }
+  h1{
+    font-size: 25px;
+    color: blueviolet;
+    background-color: chartreuse;
+  }
+  p{
+    font-size: 18px;
+    color: gold;
+  }
+  img{
+    width: 260px;
+    border: 2px solid yellowgreen;
+  }
+
+}
+@media (max-width: 480px) {
+  body {
+    background-color:ghostwhite;
+  }
+
+  h1 {
+    font-size: 22px;
+    background-color: aqua;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+    color:chartreuse;
+  }
+
+  img {
+    width: 180px;
+    border: 2px double darkcyan;
+  }
+}
